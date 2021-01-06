@@ -50,6 +50,14 @@ In "Bill" field ,user is allowed to fill numbers only.
 Test Case 16:
 In "Tip %" field , value will be in percentage mode automatically ,user is not allowed to write % after digits.
 
+Test Case 17:
+If the result contains only integer value, a precision of 2 digit (i.e .00) will be added to the result value.
 
+Test Case 18:
+If decimal values are provided, it will handle that values also and give correct resultvalue.
 
+Test Case 19:
+Both buttons "Calculate" and "Clear" are clearly visible and quick in action.
 
+Test Case 20:
+It handles all the mistakes done by the user during filling the input fields. 
