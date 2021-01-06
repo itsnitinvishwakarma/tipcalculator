@@ -25,7 +25,7 @@ b1.addEventListener('click', function() {
             clear();
         }
 
-    else if(billAmount < 0 || tipPercentage < 0 || numberOfPeople < 0){
+    else if(billAmount < 1 || tipPercentage < 0 || numberOfPeople < 1){
         alert('please fill values greater than 0');
         clear();
     }
