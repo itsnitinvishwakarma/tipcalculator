@@ -1,1 +1,55 @@
+Test Case 1:
+when a field "Bill" is empty, it will show popup - "please fill all fields!"
+
+Test Case 2:
+when a field "Tip %" is empty, it will show popup - "please fill all fields!"
+
+Test Case 3:
+when a field "Number of people" is empty, it will show popup - "please fill all fields!"
+
+Test Case 4:
+when a field "Bill" is negative value, it will show popup - "please fill values greater than 0!"
+
+Test Case 5:
+when a field "Tip %" is negative value, it will show popup - "please fill values greater than 0!"
+
+Test Case 6:
+when a field "Number of people" is negative value, it will show popup - "please fill values greater than 0!"
+
+Test Case 7:
+on clicking "clear" button, it will clear all the values filled in all the fields.
+
+
+on clicking "calculate" button -(
+Test Case 8:
+if any of the field is empty,it will show popup - "please fill all fields!"
+
+Test Case 9:
+if any of the field is filled with negative value, it will show popup - "please fill values greater than 0!"
+
+Test Case 10:
+if all fields are filled correct, it will calculate the tip amount per person and bill amount per person.
+
+Test Case 11:
+if all fields are empty, it  will show popup - "please fill all fields!"
+
+Test Case 12:
+if all fields are provided with neagtive values, it will show popup - "please fill values greater than 0!"
+
+Test Case 13:
+when a field "Bill" is filled with scientific value , it will work perfectly in that case also. 
+
+Test Case 14:
+when both fields "Bill" and "Tip %" are filled with scientific values , it will work perfectly in that case also. 
+
+)
+
+Test Case 15:
+In "Bill" field ,user is allowed to fill numbers only.
+
+Test Case 16:
+In "Tip %" field , value will be in percentage mode automatically ,user is not allowed to write % after digits.
+
+
+
 
