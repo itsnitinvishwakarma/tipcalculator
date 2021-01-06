@@ -1,0 +1,69 @@
+html {
+    background-color: lightslategray;
+    height: 100%;
+}
+
+h1 {
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* styling the container */
+#container {
+    height: 380px;
+    width: 350px;
+    background-color: burlywood;
+
+    /*to design grid view  */
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px 70px;
+    grid-template-areas: 
+    ".bill-amount"
+    ".tip-percentage"
+    ".people"
+    ".tip-amount"
+    ".total-bill";
+  
+    margin: 0 auto;
+    border: 2px solid #88B169;
+    padding: 25px;
+}
+
+/* layouting input fields */
+.input-style{
+    height: 25px;
+    width: 250px;
+}
+
+/* naming the grid items */
+#bill-amount {
+    grid-area:bill-amount ;
+}
+
+#tip-percentage {
+    grid-area:tip-percentage ;
+}
+
+#people{
+    grid-area:people ;
+}
+
+#tip-amount {
+    grid-area:tip-amount ;
+}
+
+#total-bill {
+    grid-area:total-bill ;
+}
+
+/* decorating the buttons */
+.btn {
+    color: white;
+    background-color: lightcoral;
+    height: 30px;
+    width:100px;
+    border-radius: 5px;
+    font-size: 20px;
+}

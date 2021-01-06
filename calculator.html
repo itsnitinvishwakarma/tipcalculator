@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+ <!-- linking css file -->
+    <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <div id="container">
+
+    <!-- input fields -->
+    Bill: <input  id="bill-amount" class="input-style" type="number" min="0" required>
+    Tip %: <input id="tip-percentage" class="input-style" type="number" min="0" required>
+    Number of people: <input id="people" class="input-style" type="number" min="0" required>
+    Tip amount/person: <input id="tip-amount" class="input-style" type="text" value="$" readonly>
+    Total/person: <input id="total-bill" class="input-style" type="text" value="$" readonly>
+        
+    <!-- buttons -->
+    <button class="btn" id="b1" >Calculate</button>        
+    <button class="btn" id="b2" >Clear</button>
+        
+    </div>
+
+    <!-- linking js file -->
+    <script src="calculator.js"></script>
+</body>
+</html>
